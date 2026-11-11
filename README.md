@@ -43,16 +43,20 @@ Projeto final da formação **Analista de QA da TripleTen**: planejamento e exec
 | SF-6 | Campo telefone aceita 13 caracteres (acima do limite de 12) |
 | SF-7 | Calendário permite selecionar a data de hoje |
 | SF-8 | Calendário permite navegar para meses passados |
-| SF-9 | Campo de data aceita digitação manual de datas inválidas |
-| SF-10 | Pedido avança com o período de locação vazio |
+| SF-9 | Campo de data aceita digitação manual de data passada |
+| SF-10 | Período de locação vazio bloqueia o pedido sem exibir erro |
 | SF-11 | Nenhuma mensagem quando nenhuma cor é selecionada |
 | SF-12 | Campo comentário aceita mais de 24 caracteres |
 | SF-13 | API: exclusão sem ID não retorna 400 Bad Request |
+
+Todos os relatórios completos, com passos e dados de teste concretos, estão em [BUGS.md](BUGS.md).
 
 ## 📁 Arquivos
 
 - [casos-de-teste-web.md](casos-de-teste-web.md) — os 62 casos de teste do fluxo web
 - [casos-de-teste-api.md](casos-de-teste-api.md) — os 8 casos de teste da API
+- [BUGS.md](BUGS.md) — os 13 relatórios de bug copiados do Jira (o Jira do projeto é privado)
+- [casos-de-teste-urban-scooter.xlsx](casos-de-teste-urban-scooter.xlsx) — a planilha original com todos os casos de teste e resultados
 
 ## 👩‍💻 Autora
 
